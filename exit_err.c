@@ -1,13 +1,13 @@
 #include "shell.h"
-#define TK_DEMR " \t\r\n\a\""
 
 /**
  * exit_err - Function that print is error
  * @my_prog: Programe name is "MY_prog"
  * @counter: Counter command
- * @er_line: my line
- * Return: .
+ * @err_line: my line
+ * Return: (success)
 */
+
 void exit_err(char *counter, char *my_prog, char *err_line)
 {
 	char *tokens;
